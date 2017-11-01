@@ -1,0 +1,21 @@
+{
+  "name": "ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.15.4"
+  },
+  "devDependencies": {
+    "node-sass": "^4.5.3",
+    "nodemon": "^1.12.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass-watch": "node-sass -o site/public/css/ develop/scss/ -w",
+    "start-server": "nodemon index"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
